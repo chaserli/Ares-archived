@@ -330,7 +330,7 @@ DEFINE_HOOK(468000, BulletClass_GetAnimFrame, 6)
 		auto angle = Math::arctanfoo(-pThis->Velocity.Y, pThis->Velocity.X);
 		DirStruct dir(angle);
 
-		const auto ReverseFacing32 = *reinterpret_cast<const int(*)[8]>(0x7F4890);
+		auto ReverseFacing32 = *reinterpret_cast<int(*)[8]>(0x7F4890);
 		auto facing = ReverseFacing32[dir.value32()];
 
 		auto pExt = BulletTypeExt::ExtMap.Find(pType);

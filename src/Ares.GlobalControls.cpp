@@ -2,7 +2,7 @@
 #include "Utilities\Parser.h"
 #include <CCINIClass.h>
 
-#include <VersionHelpers.h>
+#include "VersionHelpers.h"
 
 bool Ares::GlobalControls::Initialized = 0;
 bool Ares::GlobalControls::AllowParallelAIQueues = 1;
