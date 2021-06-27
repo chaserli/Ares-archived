@@ -167,8 +167,11 @@
 /src/UI/*.save
 
 # /src/Utilities/
-*.sln
 *.sdf
 *.opensdf
-*.vcxproj*
 *.suo
+
+/.vs/Antares/v16
+/Debug
+
+Antares.vcxproj.user
