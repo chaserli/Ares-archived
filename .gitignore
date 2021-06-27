@@ -173,5 +173,8 @@
 
 /.vs/Antares/v16
 /Debug
+/Release
 
 Antares.vcxproj.user
+/.vscode/c_cpp_properties.json
+/.vscode/solution-explorer
