@@ -32,8 +32,8 @@ Credits
 **Ares developer team** - creation of Ares
 **AlexB** - development of closed-source Ares past 0.A
 
-Legal and License
------------------
+Legal
+-----
 
 The Antares project is an unofficial open-source community collaboration project to reverse-engineer the Ares engine extension.
 
