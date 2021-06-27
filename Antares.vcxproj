@@ -78,7 +78,7 @@
       <ExceptionHandling>false</ExceptionHandling>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <ControlFlowGuard>false</ControlFlowGuard>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -116,7 +116,7 @@
       <ExceptionHandling>false</ExceptionHandling>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <ControlFlowGuard>false</ControlFlowGuard>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -314,7 +314,6 @@
     <ClCompile Include="src\Ext\Techno\Hooks.Cursor.cpp" />
     <ClCompile Include="src\Ext\Techno\Hooks.Deactivated.cpp" />
     <ClCompile Include="src\Ext\Techno\Hooks.Firing.cpp" />
-    <ClCompile Include="src\Ext\Techno\Hooks.Gap.cpp" />
     <ClCompile Include="src\Ext\Techno\Hooks.HunterSeeker.cpp" />
     <ClCompile Include="src\Ext\Techno\Hooks.Insignia.cpp" />
     <ClCompile Include="src\Ext\Techno\Hooks.Prerequisites.cpp" />
