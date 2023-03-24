@@ -5,7 +5,7 @@
 
 #include "../_Container.hpp"
 #include "../../Utilities/Constructs.h"
-#include "../../Utilities/Template.h"
+#include "../../Utilities/TemplateDef.h"
 
 //ifdef DEBUGBUILD
 #include "../../Misc/Debug.h"

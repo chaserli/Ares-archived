@@ -4,7 +4,7 @@
 #include <HouseTypeClass.h>
 
 #include "../../Utilities/Constructs.h"
-#include "../../Utilities/Template.h"
+#include "../../Utilities/TemplateDef.h"
 #include "../../Ares.CRT.h"
 #include "../_Container.hpp"
 

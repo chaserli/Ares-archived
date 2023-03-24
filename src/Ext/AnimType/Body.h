@@ -5,7 +5,7 @@
 #include "../_Container.hpp"
 #include "../../Utilities/Enums.h"
 #include "../../Utilities/Constructs.h"
-#include "../../Utilities/Template.h"
+#include "../../Utilities/TemplateDef.h"
 
 class AnimClass;
 class HouseClass;

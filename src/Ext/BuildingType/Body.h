@@ -7,7 +7,7 @@
 #include "../../Ares.h"
 #include "../../Utilities/Constructs.h"
 #include "../../Utilities/Enums.h"
-#include "../../Utilities/Template.h"
+#include "../../Utilities/TemplateDef.h"
 
 #include <vector>
 

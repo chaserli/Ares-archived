@@ -3,7 +3,7 @@
 #include <Helpers\Macro.h>
 
 const char* const IniIteratorChar::iteratorChar = "+";
-const char* const IniIteratorChar::iteratorReplacementFormat = "%d";
+const char* const IniIteratorChar::iteratorReplacementFormat = "var%d";
 
 int IniIteratorChar::iteratorValue = 0;
 

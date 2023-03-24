@@ -84,13 +84,13 @@ namespace Savegame {
 	template <typename T>
 	bool ReadAresStream(AresStreamReader &Stm, T &Value, bool RegisterForChange) {
 		// not implemented
-		return true;
+		return detail::Selector::ReadFromStream(Stm, Value, RegisterForChange);
 	}
 
 	template <typename T>
 	bool WriteAresStream(AresStreamWriter &Stm, const T &Value) {
 		// not implemented
-		return true;
+		return detail::Selector::WriteToStream(Stm, Value);
 	}
 
 	template <typename T>

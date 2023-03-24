@@ -5,7 +5,7 @@
 
 #include "../../Ares.h"
 #include "../_Container.hpp"
-#include "../../Utilities/Template.h"
+#include "../../Utilities/TemplateDef.h"
 #include "../../Utilities/Constructs.h"
 #include "../../Misc/AttachEffect.h"
 

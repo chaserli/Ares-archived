@@ -1,18 +1,16 @@
-#include "Ares.h"
-
-#include "Commands/Commands.h"
+#include "Commands.h"
 
 // include other commands like this
-#include "Commands/AIControl.h"
-#include "Commands/MapSnapshot.h"
-//include "Commands/FrameByFrame.h"
-#include "Commands/AIBasePlan.h"
-#include "Commands/DumpTypes.h"
-#include "Commands/DumpMemory.h"
-//#include "Commands/Debugging.h"
-//include "Commands/Logging.h"
-#include "Commands/FPSCounter.h"
-#include "Commands/TogglePower.h"
+#include "AIControl.h"
+#include "MapSnapshot.h"
+//include "FrameByFrame.h"
+#include "AIBasePlan.h"
+#include "DumpTypes.h"
+#include "DumpMemory.h"
+//#include "Debugging.h"
+//include "Logging.h"
+#include "FPSCounter.h"
+#include "TogglePower.h"
 
 void Ares::RegisterCommands()
 {

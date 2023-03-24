@@ -7,7 +7,7 @@
 #include "../../Misc/Actions.h"
 //#include "../../Misc/SWTypes.h"
 #include "../../Utilities/Enums.h"
-#include "../../Utilities/Template.h"
+#include "../../Utilities/TemplateDef.h"
 #include "../../Utilities/Constructs.h"
 
 #ifdef DEBUGBUILD

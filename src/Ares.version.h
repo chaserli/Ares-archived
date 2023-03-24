@@ -1,8 +1,6 @@
 #pragma once
 
 // define this to switch to release version
-#define IS_RELEASE_VER
-
 #define VERSION_MAJOR 16
 #define VERSION_MINOR 1
 #define VERSION_REVISION 1010

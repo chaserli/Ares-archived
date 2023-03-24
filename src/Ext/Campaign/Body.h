@@ -2,7 +2,7 @@
 
 #include "../../Ares.h"
 #include "../../Utilities/Constructs.h"
-#include "../../Utilities/Template.h"
+#include "../../Utilities/TemplateDef.h"
 #include "../_Container.hpp"
 
 #include <CCINIClass.h>

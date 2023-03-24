@@ -12,7 +12,7 @@
 
 #include "../../Utilities/Constructs.h"
 #include "../../Utilities/Enums.h"
-#include "../../Utilities/Template.h"
+#include "../../Utilities/TemplateDef.h"
 
 #ifdef DEBUGBUILD
 #include "../../Misc/Debug.h"

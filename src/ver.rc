@@ -24,16 +24,16 @@ BEGIN
   BEGIN
    VALUE "ProductName", "Ares\0"
    VALUE "CompanyName", "The Ares Contributors\0"
-   VALUE "LegalCopyright", "© The Ares Contributors 2007-2016\0"
-   VALUE "FileDescription", "The Ares DLL, unlocking new functionality for Command & Conquer™: Yuri's Revenge™\0"
+   VALUE "LegalCopyright", "ï¿½ The Ares Contributors 2007-2016\0"
+   VALUE "FileDescription", "The Ares DLL, unlocking new functionality for Command & Conquerï¿½: Yuri's Revengeï¿½\0"
    VALUE "FileVersion", VERSION_STR "\0"
    VALUE "ProductVersion", DISPLAY_STR "\0"
    VALUE "InternalName", "ares.dll\0"
    VALUE "OriginalFilename", "Ares.dll\0"
 
-#ifndef IS_RELEASE_VER
-   VALUE "SpecialBuild", "Testing version. Use at your own risk.\0"
-#endif
+
+   VALUE "SpecialBuild", "Testing version. Go fuck yourself.\0"
+
   END
  END
 

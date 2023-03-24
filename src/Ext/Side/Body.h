@@ -5,7 +5,7 @@
 
 #include "../../Ares.h"
 #include "../../Utilities/Constructs.h"
-#include "../../Utilities/Template.h"
+#include "../../Utilities/TemplateDef.h"
 #include "../../Misc/EVAVoices.h"
 
 class AircraftTypeClass;

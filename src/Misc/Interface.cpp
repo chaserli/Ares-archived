@@ -628,7 +628,7 @@ DEFINE_HOOK(6041ED, DialogFunc_SubText_CampaignIconA, 5) {
 DEFINE_HOOK(6041F5, DialogFunc_CampaignMenu_CampaignIconB, 5) {
 	return 0x6041FA;
 }
-
+#if DISABLE_SAVELOAD_BUTTON
 // disable the loading button in the single player menu
 DEFINE_HOOK(52D6C2, Singleplayer_hDlg_DisableSaves, A)
 {
@@ -651,3 +651,4 @@ DEFINE_HOOK(4F17F6, sub_4F1720_DisableSaves, 6)
 
 	return 0x4F1834;
 }
+#endif
