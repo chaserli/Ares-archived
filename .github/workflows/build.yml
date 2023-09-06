@@ -1,0 +1,35 @@
+name: Build
+
+on:
+  push:
+    branches: [ Empty-YR ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up MSVC
+      uses: ilammy/msvc-dev-cmd@v1
+
+    - name: Setup Ninja
+      run: choco install ninja
+
+    - name: Set up CMake
+      uses: lukka/get-cmake@latest
+
+    - name: Configure CMake
+      run: cmake -S . -B build -G "Ninja" -DCMAKE_BUILD_TYPE=MinSizeRel
+
+    - name: Build
+      run: cmake --build build
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: nocp
+        path: |
+          build/**/*.dll
